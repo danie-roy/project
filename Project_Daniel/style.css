@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.body{
+	background-color: hsl(30, 38%, 92%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main{
+	width: 600px;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	border-radius: 10px;
+}
+
+.inner-left{
+	flex: 0.5;
+	background-image: url(./images/image-product-desktop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.inner-right{
+	flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Prices{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h3{
+	padding: 10px 0 ;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	color: hsl(228, 12%, 48%);
+}
+
+h1{
+	padding: 10px 0;
+	line-height: 30px;
+}
+
+.text{
+	padding: 10px 0;
+	font-size: 14px;
+	color: hsl(228, 12%, 48%);
+	line-height: 25px;
+}
+
+button{
+	border: none;
+	outline: none;
+	margin: 4px 2px;
+	padding: 15px 32px;
+	color: white;
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart{
+	padding-left: 10px;
+}
+
+.price1{
+	color: hsl(158, 36%, 37%);
+	font-size: 30px;
+}
+
+.price2{
+	color: hsl(228, 12%, 48%);
+	padding-left: 30px;
+}
+
+
